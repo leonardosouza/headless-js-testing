@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite>
+<testcase classname="scripts.simple_object" name="simple-object:0:0"></testcase>
+<testcase classname="scripts.headless" name="headless:0:0"></testcase>
+<testcase classname="scripts.plugin.jquery" name="plugin.jquery:0:0"></testcase>
+  </testsuite>
+</testsuites>

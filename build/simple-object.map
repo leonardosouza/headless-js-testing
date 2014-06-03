@@ -1,1 +1,1 @@
-{"version":3,"file":"simple-object.js","sources":["../scripts/simple-object.js"],"names":["Foo","name","this","prototype","sayHi"],"mappings":";;AAAA,QAASA,KAAIC,GACZC,KAAKD,KAAOA,EAGbD,IAAIG,UAAUC,MAAQ,WACrB,MAAOF,MAAKD,KAAO"}
+{"version":3,"file":"simple-object.js","sources":["../scripts/simple-object.js"],"names":["window","Foo","name","this","prototype","sayHi","sayHello"],"mappings":";;AAAAA,OAAOC,IAAO,WACV,GAAIA,GAAM,SAAUC,GAChBC,KAAKD,KAAOA,EAWhB,OARAD,GAAIG,UAAUC,MAAQ,WAClB,MAAOF,MAAKD,KAAO,aAGvBD,EAAIG,UAAUE,SAAW,WACrB,MAAOH,MAAKD,KAAO,gBAGhBD"}

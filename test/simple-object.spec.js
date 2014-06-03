@@ -6,8 +6,14 @@ describe('Simple object', function() {
 		mary = new Foo('Mary');
 	});
 
-	it('shold say hi', function() {
+	it('should say hi', function() {
 		expect(john.sayHi()).toEqual('John says hi!');
 		expect(mary.sayHi()).toEqual('Mary says hi!');
+	});
+
+
+	it('should say hello', function() {
+		expect(john.sayHello()).toEqual('John says hello!');
+		expect(mary.sayHello()).toEqual('Mary says hello!');
 	});
 });

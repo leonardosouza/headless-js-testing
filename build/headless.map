@@ -1,1 +1,1 @@
-{"version":3,"file":"headless.js","sources":["../scripts/headless.js"],"names":["Conta","num","this","prototype","setNum","getNum"],"mappings":";;AAAA,QAASA,OAAMC,GACdC,KAAKD,IAAMA,EAGZD,MAAMG,UAAUC,OAAS,SAASH,GAEjCC,KAAKD,IAAMA,GAGZD,MAAMG,UAAUE,OAAS,WACxB,MAAOH,MAAKD"}
+{"version":3,"file":"headless.js","sources":["../scripts/headless.js"],"names":["Conta","num","this","prototype","setNum","getNum"],"mappings":";;CAAC,WACG,GAAIA,GAAQ,SAAUC,GAClBC,KAAKD,IAAMA,EAGfD,GAAMG,UAAUC,OAAS,SAAUH,GAE/BC,KAAKD,IAAMA,GAGfD,EAAMG,UAAUE,OAAS,WACrB,MAAOH,MAAKD"}

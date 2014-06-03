@@ -33,16 +33,70 @@ module.exports = function(grunt) {
                         'scripts/vendor/jquery.js',
                         'scripts/vendor/jasmine-jquery.js',
                     ],
-                    specs: 'test/*.spec.js'
+                    specs: 'test/*.spec.js',
+                    junit: {
+                        path: 'test/exports'
+                    }
                 }
             }
+        },
+
+        jslint: {
+            test: {
+                src: ['scripts/**/*.js'],
+                exclude: ['scripts/vendor/**/*.js'],
+                directives: {
+                    bitwise: false,
+                    browser: true,
+                    closure: false,
+                    continue: false,
+                    couch: false,
+                    debug: false,
+                    devel: true,
+                    eqeq: false,
+                    evil: false,
+                    forin: false,
+                    newcap: false,
+                    passfail: false,
+                    plusplus: true,
+                    regexp: true,
+                    sloppy: true,
+                    stupid: false,
+                    unparam: false,
+                    vars: false,
+                    white: true,
+                    predef: [
+                        'jQuery'
+                    ]
+                },
+                options: {
+                    junit: 'test/exports/JSLINT-Allfiles.xml'
+                }
+          
+
+            }
+        },
+
+
+        watch: {
+          scripts: {
+            files: ['scripts/**/*.js','test/**/*.js'],
+            tasks: ['bdd'],
+            options: {
+              spawn: false,
+              reload: true
+            }
+          },
         }
     });
 
     // Load the plugin that provides the tasks.
     grunt.loadNpmTasks('grunt-contrib-jasmine');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-jslint');
 
     // Default task(s).
-    grunt.registerTask('default', ['jasmine','uglify']);
+    grunt.registerTask('bdd', ['jslint', 'jasmine', 'uglify']);
+    grunt.registerTask('default', ['watch']);
 };

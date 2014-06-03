@@ -1,4 +1,4 @@
 /*! headless 2014-06-03 */
 
-function Foo(a){this.name=a}Foo.prototype.sayHi=function(){return this.name+" says hi!"};
+window.Foo=function(){var a=function(a){this.name=a};return a.prototype.sayHi=function(){return this.name+" says hi!"},a.prototype.sayHello=function(){return this.name+" says hello!"},a}();
 //# sourceMappingURL=simple-object.map
