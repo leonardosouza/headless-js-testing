@@ -1,0 +1,23 @@
+{
+  "name": "headless",
+  "version": "0.0.1",
+  "description": "Headless testing with Jasmine, PhantomJS and Grunt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "testing",
+    "jasmine",
+    "phantomjs",
+    "grunt"
+  ],
+  "author": "Leonardo Souza",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-jasmine": "~0.6.5",
+    "grunt-contrib-uglify": "^0.4.0"
+  }
+}
