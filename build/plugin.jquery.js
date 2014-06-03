@@ -1,4 +1,4 @@
 /*! headless 2014-06-03 */
 
-function Foo(a){this.name=a}Foo.prototype.sayHi=function(){return this.name+" says hi!"};
+!function(a){var b={classes:"my default classes",text:"Some default text"};a.fn.plugin=function(c){return c=a.extend(!0,{},b,c),this.each(function(){a(this).addClass(c.classes).text(c.text)})}}(jQuery);
 //# sourceMappingURL=plugin.jquery.map
