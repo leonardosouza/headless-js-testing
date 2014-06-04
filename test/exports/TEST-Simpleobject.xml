@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="Simple object" errors="0" tests="2" failures="0" time="0.001" timestamp="Tue Jun 03 2014 15:00:01 GMT-0300 (BRT)">
+  <testsuite name="Simple object" errors="0" tests="2" failures="0" time="0.002" timestamp="Wed Jun 04 2014 12:55:29 GMT+0000 (UTC)">
     
       <testcase assertions="0" classname="Simple object" name="should say hi" time="0.001">
         
       </testcase>
     
-      <testcase assertions="0" classname="Simple object" name="should say hello" time="0">
+      <testcase assertions="0" classname="Simple object" name="should say hello" time="0.001">
         
       </testcase>
     
