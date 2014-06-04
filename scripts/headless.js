@@ -21,5 +21,9 @@ window.Conta = (function () {
         this.saldo += num;
     };
     
+    Conta.prototype.setUserAccount = function(name) {
+        this.name = name;
+    };
+    
     return Conta;
 }());

@@ -18,4 +18,9 @@ describe('Simple object', function() {
         cc.setBalance(1000);
         expect(cc.getBalance()).toEqual(1000);
     });
+    
+    it('set user account', function() {
+       cc.setUserAccount("José Silva");
+       expect(cc.name).toEqual("José Silva");
+    });
 });

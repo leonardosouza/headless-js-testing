@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="jquery plugin" errors="0" tests="4" failures="0" time="0.015" timestamp="Wed Jun 04 2014 12:55:29 GMT+0000 (UTC)">
+  <testsuite name="jquery plugin" errors="0" tests="4" failures="0" time="0.012" timestamp="Wed Jun 04 2014 13:04:39 GMT+0000 (UTC)">
     
-      <testcase assertions="0" classname="jquery plugin" name="should add default classes to the element" time="0.01">
+      <testcase assertions="0" classname="jquery plugin" name="should add default classes to the element" time="0.009">
         
       </testcase>
     
