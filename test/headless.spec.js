@@ -20,7 +20,7 @@ describe('Simple object', function() {
     });
     
     it('set user account', function() {
-       cc.setUserAccount("José Silva");
-       expect(cc.name).toEqual("José Silva");
+       cc.setUserAccount("Jose Silva");
+       expect(cc.name).toEqual("Jose Silva");
     });
 });

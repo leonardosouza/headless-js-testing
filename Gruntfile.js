@@ -14,7 +14,6 @@ module.exports = function(grunt) {
                 report: 'gzip'
             },
 
-
             build: { 
                 files: [{
                     "expand": true,
@@ -72,21 +71,18 @@ module.exports = function(grunt) {
                 options: {
                     junit: 'test/exports/JSLINT-Allfiles.xml'
                 }
-          
-
             }
         },
 
-
         watch: {
-          scripts: {
-            files: ['scripts/**/*.js','test/**/*.js'],
-            tasks: ['bdd'],
-            options: {
-              spawn: false,
-              reload: true
+            scripts: {
+                files: ['scripts/**/*.js','test/**/*.js'],
+                tasks: ['bdd'],
+                options: {
+                    spawn: false,
+                    reload: true
+                }
             }
-          },
         }
     });
 

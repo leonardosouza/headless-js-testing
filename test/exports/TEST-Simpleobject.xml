@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="Simple object" errors="0" tests="2" failures="0" time="0.002" timestamp="Wed Jun 04 2014 13:04:39 GMT+0000 (UTC)">
+  <testsuite name="Simple object" errors="0" tests="2" failures="0" time="0.001" timestamp="Wed Jun 04 2014 11:02:08 GMT-0300 (BRT)">
     
-      <testcase assertions="0" classname="Simple object" name="should say hi" time="0.001">
+      <testcase assertions="0" classname="Simple object" name="should say hi" time="0">
         
       </testcase>
     
