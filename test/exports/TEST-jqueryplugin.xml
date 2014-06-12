@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
 
-  <testsuite name="jquery plugin" errors="0" tests="4" failures="0" time="0.01" timestamp="Wed Jun 04 2014 11:02:08 GMT-0300 (BRT)">
+  <testsuite name="jquery plugin" errors="0" tests="4" failures="0" time="0.008" timestamp="Wed Jun 11 2014 21:42:14 GMT-0300 (BRT)">
     
       <testcase assertions="0" classname="jquery plugin" name="should add default classes to the element" time="0.006">
         
       </testcase>
     
-      <testcase assertions="0" classname="jquery plugin" name="should add default text to the element" time="0.001">
+      <testcase assertions="0" classname="jquery plugin" name="should add default text to the element" time="0">
         
       </testcase>
     
-      <testcase assertions="0" classname="jquery plugin" name="should add add custom classes to the element" time="0.001">
+      <testcase assertions="0" classname="jquery plugin" name="should add add custom classes to the element" time="0">
         
       </testcase>
     
-      <testcase assertions="0" classname="jquery plugin" name="should add add custom text to the element" time="0">
+      <testcase assertions="0" classname="jquery plugin" name="should add add custom text to the element" time="0.001">
         
       </testcase>
     
